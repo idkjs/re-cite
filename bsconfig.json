@@ -1,0 +1,35 @@
+{
+  "name": "re-cite-app",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "__tests__",
+      "type": "dev"
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "ppx-flags": ["@baransu/graphql_ppx_re/ppx"],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react",
+    "bs-css",
+    "bs-webapi",
+    "reason-apollo-hooks",
+    "reason-apollo",
+    "bs-react-netlify-identity",
+    "@glennsl/bs-jest"
+  ],
+  "refmt": 3
+}
